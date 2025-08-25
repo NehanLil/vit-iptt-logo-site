@@ -39,6 +39,30 @@
       </div>
     </header>
 
+    <!-- Canva Link Banner (below header) -->
+    <div class="w-full bg-gradient-to-r from-blue-50 to-blue-100 border-b border-blue-200 py-3 px-4 flex items-center justify-center sticky top-[56px] z-40">
+      <a href="https://www.canva.com/design/DAGxEUXnzvY/0z5bp09NMk7qztPn0lotZA/edit?utm_content=DAGxEUXnzvY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener" class="flex items-center gap-3 text-blue-900 font-bold text-lg md:text-xl tracking-wide hover:text-blue-700 transition underline underline-offset-4">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6A2.25 2.25 0 005.25 5.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M18 15l3-3m0 0l-3-3m3 3H9" /></svg>
+        View the Canva Design Process
+      </a>
+    </div>
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur z-50 border-b border-gray-100">
+      <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-4">
+        <div class="flex items-center gap-3">
+          <img src="iptt_logo_only.jpg" alt="VIT IP&TT Logo" class="h-10 w-10 object-contain" />
+          <span class="font-bold text-lg tracking-wide">VIT IP&TT CELL</span>
+        </div>
+        <nav class="space-x-8 hidden md:block">
+          <a href="#concept" class="hover:text-blue-600 transition">The Concept</a>
+          <a href="#applications" class="hover:text-blue-600 transition">Applications</a>
+        </nav>
+        <nav class="md:hidden">
+          <!-- Mobile nav could go here if needed -->
+        </nav>
+      </div>
+    </header>
+
     <!-- Hero Section -->
     <section class="pt-24 pb-16 bg-white" id="concept">
       <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 px-4">
@@ -70,13 +94,13 @@
         <div class="applications-row flex flex-col md:flex-row items-center md:items-stretch mb-16 opacity-0 translate-y-8 transition-all duration-1000">
           <!-- Image Left -->
           <div class="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
-            <img src="polomock.png" alt="Logo on Polo Shirt" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-cover w-full max-w-md h-64 md:h-80 bg-white" />
+            <img src="polomock.png" alt="Logo on Polo Shirt" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-contain w-full max-w-md max-h-[32rem] bg-white" />
           </div>
           <!-- Text Right -->
           <div class="w-full md:w-1/2 flex flex-col justify-center px-0 md:px-10">
-            <span class="text-xs font-bold uppercase tracking-widest text-blue-700 mb-2">Professional Apparel</span>
-            <h3 class="text-2xl md:text-3xl font-bold mb-3">Clarity in Detail</h3>
-            <p class="text-base md:text-lg text-gray-700">The logo's strong, clean lines ensure perfect legibility, even in detailed applications like embroidery. It represents the brand with professionalism and quality on team apparel and corporate merchandise.</p>
+            <span class="text-sm md:text-base font-bold uppercase tracking-widest text-blue-700 mb-3">Professional Apparel</span>
+            <h3 class="text-3xl md:text-5xl font-extrabold mb-5 leading-tight">Clarity in Detail</h3>
+            <p class="text-lg md:text-2xl text-gray-700 leading-relaxed">The logo's strong, clean lines ensure perfect legibility, even in detailed applications like embroidery. It represents the brand with professionalism and quality on team apparel and corporate merchandise.</p>
           </div>
         </div>
 
@@ -84,13 +108,13 @@
         <div class="applications-row flex flex-col md:flex-row-reverse items-center md:items-stretch mb-4 opacity-0 translate-y-8 transition-all duration-1000">
           <!-- Image Right -->
           <div class="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
-            <img src="bookmock.png" alt="Logo on Brochure" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-cover w-full max-w-md h-64 md:h-80 bg-white" />
+            <img src="bookmock.png" alt="Logo on Brochure" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-contain w-full max-w-md max-h-[32rem] bg-white" />
           </div>
           <!-- Text Left -->
           <div class="w-full md:w-1/2 flex flex-col justify-center px-0 md:px-10">
-            <span class="text-xs font-bold uppercase tracking-widest text-blue-700 mb-2">Corporate Stationery</span>
-            <h3 class="text-2xl md:text-3xl font-bold mb-3">Impact on Print</h3>
-            <p class="text-base md:text-lg text-gray-700">On brochures, letterheads, and reports, the logo serves as a confident and authoritative mark. Its balanced composition works seamlessly within professional layouts, reinforcing the Cell's official identity.</p>
+            <span class="text-sm md:text-base font-bold uppercase tracking-widest text-blue-700 mb-3">Corporate Stationery</span>
+            <h3 class="text-3xl md:text-5xl font-extrabold mb-5 leading-tight">Impact on Print</h3>
+            <p class="text-lg md:text-2xl text-gray-700 leading-relaxed">On brochures, letterheads, and reports, the logo serves as a confident and authoritative mark. Its balanced composition works seamlessly within professional layouts, reinforcing the Cell's official identity.</p>
           </div>
         </div>
 
@@ -98,13 +122,27 @@
         <div class="applications-row flex flex-col md:flex-row items-center md:items-stretch mb-4 opacity-0 translate-y-8 transition-all duration-1000">
           <!-- Image Left -->
           <div class="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
-            <img src="coffeemock.png" alt="Logo on Coffee Mug" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-cover w-full max-w-md h-64 md:h-80 bg-white" />
+            <img src="coffeemock.png" alt="Logo on Coffee Mug" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-contain w-full max-w-md max-h-[32rem] bg-white" />
           </div>
           <!-- Text Right -->
           <div class="w-full md:w-1/2 flex flex-col justify-center px-0 md:px-10">
-            <span class="text-xs font-bold uppercase tracking-widest text-blue-700 mb-2">Branded Merchandise</span>
-            <h3 class="text-2xl md:text-3xl font-bold mb-3">Everyday Visibility</h3>
-            <p class="text-base md:text-lg text-gray-700">On mugs and everyday items, the logo maintains its clarity and impact, turning simple objects into brand ambassadors and reinforcing the Cell’s presence in daily life.</p>
+            <span class="text-sm md:text-base font-bold uppercase tracking-widest text-blue-700 mb-3">Branded Merchandise</span>
+            <h3 class="text-3xl md:text-5xl font-extrabold mb-5 leading-tight">Everyday Visibility</h3>
+            <p class="text-lg md:text-2xl text-gray-700 leading-relaxed">On mugs and everyday items, the logo maintains its clarity and impact, turning simple objects into brand ambassadors and reinforcing the Cell’s presence in daily life.</p>
+          </div>
+        </div>
+
+        <!-- ID Card Row -->
+        <div class="applications-row flex flex-col md:flex-row-reverse items-center md:items-stretch mb-4 opacity-0 translate-y-8 transition-all duration-1000">
+          <!-- Image Right -->
+          <div class="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
+            <img src="idmock.png" alt="Logo on ID Card" class="rounded-xl shadow-lg transition-transform duration-700 ease-out hover:scale-105 object-contain w-full max-w-md max-h-[32rem] bg-white" />
+          </div>
+          <!-- Text Left -->
+          <div class="w-full md:w-1/2 flex flex-col justify-center px-0 md:px-10">
+            <span class="text-sm md:text-base font-bold uppercase tracking-widest text-blue-700 mb-3">Official Identification</span>
+            <h3 class="text-3xl md:text-5xl font-extrabold mb-5 leading-tight">Trusted Recognition</h3>
+            <p class="text-lg md:text-2xl text-gray-700 leading-relaxed">On university ID cards, the logo stands as a mark of authenticity and trust, ensuring instant recognition and reinforcing the Cell’s official status within the institution.</p>
           </div>
         </div>
       </div>
